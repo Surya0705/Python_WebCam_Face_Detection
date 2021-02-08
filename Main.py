@@ -26,5 +26,5 @@ while True: # Putting a While Loop.
     if cv2.waitKey(1) == ord('x'): # Waiting for the Key 'x' to be Pressed for the Program to Exit. You May Change it according to the Key of your Choice.
         break
 
-b.release()
-cv2.destroyAllWindows()
+b.release() # Releasing the Video.
+cv2.destroyAllWindows() # Destroying All the Windows once 'x' Key is Pressed.
